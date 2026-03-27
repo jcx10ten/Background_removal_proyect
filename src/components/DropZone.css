@@ -1,0 +1,23 @@
+/* DropZone.css */
+.dropzone {
+  background-color: #aaa;
+  border: 3px solid #7c5cbf; /* el morado */
+  border-radius: 16px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  transition: opacity 0.2s;
+}
+
+.dropzone p{
+    color: black;
+}
+.dropzone:hover {
+  opacity: 0.85;
+}
