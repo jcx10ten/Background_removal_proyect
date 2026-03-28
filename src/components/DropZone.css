@@ -1,7 +1,7 @@
 /* DropZone.css */
 .dropzone {
-  background-color: #aaa;
-  border: 3px solid #5c4a3a; /* el morado */
+  background-color: #d2caca;
+  border: 3px solid #5c4a3a; 
   border-radius: 16px;
   height: 260px;
   display: flex;
