@@ -24,10 +24,10 @@ function App() {
       </nav>
 
       {/* Card principal */}
-<main
-  className="rounded-2xl p-10 flex items-center gap-10 w-full overflow-hidden"
-  style={{ backgroundColor: '#dde0ff', border: '1px solid #b0b8fa' }}
->
+      <main
+        className="rounded-2xl p-10 flex items-center gap-10 w-full overflow-hidden"
+        style={{ backgroundColor: '#dde0ff', border: '1px solid #b0b8fa' }}
+      >
 
         {/* Texto izquierda */}
         <div className="flex-1 flex flex-col gap-4">
@@ -43,9 +43,16 @@ function App() {
           <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
             Te amo con toda mi alma amorcitoo
           </p>
-                    <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
-          🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖
+          <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
+            🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖
           </p>
+          <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
+            De tu Enamorado Cami
+          </p>
+          <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
+            Para mi amor Vale 🩷🦖
+          </p>
+
 
         </div>
 
