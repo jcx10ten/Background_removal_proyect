@@ -1,5 +1,3 @@
-import './DropZone.css'
-
 function DropZone({ onFileSelected }) {
 
   const handleClick = () => {
@@ -18,23 +16,32 @@ function DropZone({ onFileSelected }) {
   }
 
   const handleDragOver = (e) => {
-    e.preventDefault() // necesario para que onDrop funcione
+    e.preventDefault()
   }
 
   return (
     <div
-      className="dropzone"
+      className="w-full h-64 flex items-center justify-center text-center rounded-2xl cursor-pointer transition-opacity duration-200 hover:opacity-80"
+      style={{
+        backgroundColor: '#c8ceff',
+        border: '3px solid #824EF5',
+      }}
       onClick={handleClick}
       onDrop={handleDrop}
       onDragOver={handleDragOver}
     >
-      <p>INSERTA AQUÍ LA IMAGEN<br />A QUITAR EL FONDO</p>
+      <p
+        className="text-xs font-bold tracking-widest"
+        style={{ color: '#4E51F5' }}
+      >
+        INSERTA AQUÍ LA IMAGEN<br />A QUITAR EL FONDO
+      </p>
 
       <input
         id="file-input"
         type="file"
         accept="image/*"
-        style={{ display: 'none' }}
+        className="hidden"
         onChange={handleChange}
       />
     </div>
