@@ -40,6 +40,13 @@ function App() {
           <p className="text-base font-medium" style={{ color: '#000000' }}>
             Espero te sirva mucho la pagina amoor
           </p>
+          <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
+            Te amo con toda mi alma amorcitoo
+          </p>
+                    <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
+          🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖🩷🦖
+          </p>
+
         </div>
 
         {/* Zona derecha */}
