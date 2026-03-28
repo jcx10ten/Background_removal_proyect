@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <nav className="navbar">
-          <span>BACKGROUND REMOVAL</span>
+          <span>BACKGROUND EMO</span>
         </nav>
 
         <main className="main-card">
