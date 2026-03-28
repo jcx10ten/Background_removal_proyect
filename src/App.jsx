@@ -37,7 +37,7 @@ function App() {
           <p className="text-base max-w-xs leading-relaxed" style={{ color: '#5c5c99' }}>
             Prueba pagina para quitar el fondo, se irán añadiendo más funciones en el futuro.
           </p>
-          <p className="text-base font-medium" style={{ color: '#000000' }}>
+          <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
             Espero te sirva mucho la pagina amoor
           </p>
           <p className="text-base font-medium" style={{ color: '#5c5c99' }}>
